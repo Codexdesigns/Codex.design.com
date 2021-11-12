@@ -7,7 +7,7 @@ padding: 0;
 
   width: 100%;
 background-color: black;
-background-image: url(backround1.png);  
+background-image: url(images/background1.png);  
   background-position: center;
   height: 109vh;
 
@@ -90,7 +90,7 @@ ul li a:hover{
 
   width: 100%;
 background-color: black;
-background-image: url(background2.png);  
+background-image: url(images/background2.png);  
   background-position: center;
   height: 109vh;
 
@@ -108,7 +108,7 @@ background-image: url(background2.png);
 
    .col{
 
-    flex-basis: 30%;
+    flex-basis: 50%;
 
    }
    .col img{
@@ -119,9 +119,9 @@ background-image: url(background2.png);
 
    .info{
     color:silver;
-    font-size: 17px;
+    font-size: 18px;
     font-family: arial;
-    padding-left: 6px;
+    padding-left: 19px;
     float: left;
     padding-top: 27px;
     
@@ -131,21 +131,21 @@ background-image: url(background2.png);
     color:silver;
     font-size: 17px;
     font-family: arial;
-    padding-left: 6px;
+    padding-left: 9px;
     float: left;
     padding-top: 27px;
    }
 
-   .MAOSEN{
+   a {
+    color:white;   /* for browsers that don't support 'inherit' as a color value */
+    color:inherit;
+    font-size: 18px;
 
-    color:silver;
-    font-size: 17px;
-    font-family: arial;
-    padding-left: 6px;
-    float: left;
-    padding-top: 27px;
+}
 
-   }
+  a:hover{
+color: red;
+  }  
    
 
 
