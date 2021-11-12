@@ -108,8 +108,9 @@ background-image: url(background2.png);
 
    .col{
 
-    flex-basis: 50%;
-
+    flex-basis: 47%;
+    align-items: center;
+  ;
    }
    .col img{
 
@@ -147,6 +148,8 @@ background-image: url(background2.png);
 color: red;
   }  
    
+
+
 
 
 
